@@ -1,0 +1,22 @@
+body {
+  width: 1340px;
+  background-color: #B0C4DE;
+}
+
+header {
+  width: auro;
+  height: 150px;
+background-color: #DCDCDC;
+margin: 20px;
+text-align: center;
+font-family: arial;
+padding: 10px;
+border-bottom: 2px groove black;
+box-shadow: 10px 0px 10px black;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  float: left;
+}

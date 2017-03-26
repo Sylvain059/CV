@@ -1,17 +1,18 @@
 body {
   width: 1340px;
-  background-color: #B0C4DE;
+  background-color: white;
 }
 
 header {
-  width: auro;
+  width: auto;
   height: 150px;
-background-color: #DCDCDC;
+background-color: #003366;
+color: white;
 margin: 20px;
 text-align: center;
-font-family: arial;
-padding: 10px;
-border-bottom: 2px groove black;
+font-family: helvetica;
+padding: 20px;
+border-bottom: 2px ridge black;
 border-radius: 15px;
 box-shadow: 10px 0px 10px black;
 }
@@ -24,16 +25,21 @@ header img {
 
 aside {
   width: 200px;
-  height: 520px;
-  background-color: #EFEFEF;
-  font-family: Arial;
-  border: 2px groove black;
-  box-shadow: 10px 0px 10px grey;
+  height: 690px;
+  background-color: #1D4851;
+  color: white;
+  font-family: helvetica;
+  border: 2px ridge black;
+  box-shadow: 10px 0px 10px black;
   border-radius: 15px;
   margin: 20px;
-  padding: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+aside li {
+  padding: 2px;
 }
 
 h3 {
@@ -45,27 +51,32 @@ h3 {
 
 .first {
   background-color: #EFEFEF;
-  font-family: monospace;
+  font-family:helvetica;
   font-size: 15px;
   height: 530px;
   width:  1000px;
   padding: 15px;
-  margin-top: -584px;
+  margin-top: -725px;
   margin-right: 20px;
-  border: 2px groove black;
+  border: 2px ridge black;
   border-radius: 15px;
   float: right;
-    box-shadow: 10px 0px 10px grey;
+    box-shadow: 10px 0px 10px black;
 }
 
 .second {
   background-color: #EFEFEF;
-  border: 2px groove black;
+  border: 2px ridge black;
   border-radius: 15px;
-  font-family: monospace;
+  font-family: helvetica;
   font-size: 15px;
   padding: 15px;
-    box-shadow: 10px 0px 10px grey;
+  margin-top: -135px;
+  margin-left: 287px;
+  margin-right: 20px;
+  box-shadow: 10px 0px 10px black;
+}
 
-
+.second li {
+  padding: 15px;
 }

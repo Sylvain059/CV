@@ -13,7 +13,7 @@ text-align: center;
 font-family: helvetica;
 padding: 20px;
 border-bottom: 2px ridge black;
-border-radius: 15px;
+border-radius: 5px;
 box-shadow: 10px 0px 10px black;
 }
 
@@ -21,19 +21,20 @@ header img {
   width: 150px;
   height: 150px;
   float: left;
+  border-radius: 15px;
 }
 
 aside {
   width: 200px;
-  height: 690px;
+  max-height: 700px;
   background-color: #1D4851;
   color: white;
   font-family: helvetica;
   border: 2px ridge black;
   box-shadow: 10px 0px 10px black;
-  border-radius: 15px;
+  border-radius: 5px;
   margin: 20px;
-  padding: 10px;
+  padding: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -56,23 +57,25 @@ h3 {
   height: 530px;
   width:  1000px;
   padding: 15px;
-  margin-top: -725px;
+  margin-top: -731px;
   margin-right: 20px;
   border: 2px ridge black;
-  border-radius: 15px;
+  border-radius: 5px;
   float: right;
-    box-shadow: 10px 0px 10px black;
+  box-shadow: 10px 0px 10px black;
 }
 
 .second {
+  width: 1000px;
+  height: 270px;
   background-color: #EFEFEF;
   border: 2px ridge black;
-  border-radius: 15px;
+  border-radius: 5px;
   font-family: helvetica;
   font-size: 15px;
   padding: 15px;
   margin-top: -135px;
-  margin-left: 287px;
+  margin-left: 286px;
   margin-right: 20px;
   box-shadow: 10px 0px 10px black;
 }
